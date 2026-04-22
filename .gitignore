@@ -1,0 +1,10 @@
+backEnd/node_modules/
+frontEnd/node_modules/
+
+backEnd/src/config/.env
+frontEnd/.env
+frontEnd/.env.example
+
+frontEnd/dist/
+
+.vscode/

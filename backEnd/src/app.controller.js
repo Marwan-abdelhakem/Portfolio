@@ -7,7 +7,7 @@ import globalErrorHandler from "./Utlis/errorHandler.utlis.js"
 
 const bootStrap = async (app, express) => {
     app.use(cors({
-        origin: 'https://portfolio-rho-nine-83pp1yd0ok.vercel.app',
+        origin: process.env.FRONTEND_URL || "http://localhost:5173",
         credentials: true,
     }))
     app.use(express.json())

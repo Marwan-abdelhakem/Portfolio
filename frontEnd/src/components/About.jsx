@@ -4,7 +4,6 @@ import { useRef } from 'react'
 import { Layers, Zap, Users, Code } from 'lucide-react'
 
 const stats = [
-    { value: '2+', label: 'Years Experience' },
     { value: '15+', label: 'Projects Built' },
     { value: '100%', label: 'Dedication' },
     { value: '∞', label: 'Curiosity' },
